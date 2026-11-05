@@ -57,7 +57,7 @@ mvn test-compile org.pitest:pitest-maven:mutationCoverage
 
 Open the HTML report at `target/pit-reports/index.html`.
 
-The build **fails** if the mutation score drops below 90% (`mutationThreshold` in `pom.xml`).
+The build **fails** if the mutation score drops below 95% (`mutationThreshold` in `pom.xml`). The weak tests in the exercise below score 91%, so they would fail the build.
 
 ## Current results
 

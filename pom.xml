@@ -63,7 +63,7 @@
                     </outputFormats>
                     <timestampedReports>false</timestampedReports>
                     <!-- Build fails if mutation score drops below this -->
-                    <mutationThreshold>90</mutationThreshold>
+                    <mutationThreshold>95</mutationThreshold>
                     <coverageThreshold>90</coverageThreshold>
                 </configuration>
             </plugin>
